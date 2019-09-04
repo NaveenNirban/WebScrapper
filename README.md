@@ -7,7 +7,10 @@ Goto gmail account setting for app password & generate a password for specific s
 Authenticate & Select App - Mail & Select Device - Windows Computer.
 Click generate & copy the password for giving it as input next time.
 Install requests,BeautifulSoup,time,smtplib.(smtplib & time package are preinstalled in some cases).
-Input as 1st argument-Product Url
-Input as 2nd argument-Password of mail account that we generated.
+
+1. run command in folder "python pass1.py".
+2. the above link will save username,password into encoded form. i.e, Base64.
+3. after confirmation run command "python price.py".
+4. follow the argument descriptions & enter appropriate informations.
 #This script is made for educational purpose to understand how fundamentals of web scraping works. Python infact plays a major role in building basics blocks of web. Enjoy!!!
 
