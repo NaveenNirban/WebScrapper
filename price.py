@@ -48,7 +48,7 @@ def send_mail():
     subject = "Price are very low check it out"
     body = "Check it out link = https://www.amazon.in/Power-your-Subconscious-Mind/dp/8194058678/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1566980009&sr=8-1-spons"
     msg = f"subject:{subject}\n\n{body}"
-    server.sendmail(username,"raosahabj@gmail.com",msg)
+    server.sendmail(username,"your email",msg)
     print('HEY MAIL HAS BEEN SENT!!!\n Another mail will be on to you next in 1 hour.')
     server.quit()
 while(True):
